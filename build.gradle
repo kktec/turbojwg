@@ -1,0 +1,23 @@
+apply plugin: 'groovy'
+
+apply plugin: 'eclipse'
+
+apply plugin: 'codenarc'
+codenarc {
+	toolVersion = '0.21'
+	configFile = file('config/codenarc.groovy')
+}
+
+repositories {
+	jcenter()
+	mavenCentral()
+}
+
+dependencies {
+	compile 'org.codehaus.groovy:groovy-all:2.2.2'
+	compile 'org.codehaus.gpars:gpars:1.1.0'
+	compile 'com.google.code.gson:gson:2.2.4'
+	
+	testCompile 'org.easymock:easymock:3.2'
+	testCompile 'org.spockframework:spock-core:0.7-groovy-2.0'
+}
