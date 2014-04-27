@@ -7,7 +7,7 @@ import demo.Address
 Date today = new Date()
 
 Address a = new Address('123 Easy St.', '#1', 'MSN', '53704', today)
-//println a
+println a
 //a.city = 'MKE'
 
 assert a.asOf == today

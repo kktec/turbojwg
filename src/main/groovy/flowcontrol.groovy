@@ -1,10 +1,10 @@
-def x = 1
+def x = 0
 
-//if (!x) {
-//	println 'no x'
-//} else {
-//	print 'got x'
-//}
+if (!x) {
+	println 'no x'
+} else {
+	print 'got x'
+}
 
 //println x ? 'x' : 'y'
 
@@ -49,4 +49,5 @@ def x = 1
 //		default: println it
 //	} // isCase()
 //}
+
 	

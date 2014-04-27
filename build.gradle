@@ -18,6 +18,8 @@ dependencies {
 	compile 'org.codehaus.gpars:gpars:1.1.0'
 	compile 'com.google.code.gson:gson:2.2.4'
 	
+	runtime 'com.h2database:h2:1.4.177'
+	
 	testCompile 'org.easymock:easymock:3.2'
 	testCompile 'org.spockframework:spock-core:0.7-groovy-2.0'
 }
