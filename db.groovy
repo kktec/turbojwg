@@ -1,9 +1,14 @@
 import groovy.sql.Sql
-import groovy.transform.ToString
 
-Sql db =  Sql.newInstance(url: 'jdbc:h2:tcp://localhost:9123/./db/demo', user: 'sa', password: '', driver: 'org.h2.Driver')
+import javax.sql.DataSource
 
-// Sql db = new Sql(dataSource)
+import org.h2.tools.Server
+
+Server server = Server.createTcpServer().start()
+
+//Sql db = new Sql(dataSource)
+
+Sql db =  Sql.newInstance url: 'jdbc:h2:tcp://localhost/./db/demo', user: 'sa', password: '', driver: 'org.h2.Driver'
 
 //db.execute new File('./db/scripts/SalesOrdersTables.sql').text
 //db.execute new File('./db/scripts/SalesOrdersData.sql').text
@@ -53,5 +58,6 @@ println customers.size() + '\n'
 //where CUSTOMERID = ?
 //'''
 //Customer cust1003 = new Customer(db.firstRow(customerByIdSql, 1003))
-//println "\n$cust1003"
+//print
 
+server.stop()
