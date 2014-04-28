@@ -1,6 +1,5 @@
 import groovy.sql.Sql
-
-import javax.sql.DataSource
+import groovy.transform.ToString
 
 import org.h2.tools.Server
 
@@ -10,54 +9,56 @@ Server server = Server.createTcpServer().start()
 
 Sql db =  Sql.newInstance url: 'jdbc:h2:tcp://localhost/./db/demo', user: 'sa', password: '', driver: 'org.h2.Driver'
 
-//db.execute new File('./db/scripts/SalesOrdersTables.sql').text
-//db.execute new File('./db/scripts/SalesOrdersData.sql').text
+//db.execute new File('ddl.sql').text
+//db.execute new File('data.sql').text
 
 
 List customers = db.rows 'select * from Customers'
 println customers
-println customers.size() + '\n'
+println "\nNo. of customers: ${customers.size()}"
 
-//println customers.collect { it.CUSTOMERID }
-//println customers*.CUSTOMERID
-//
-//List allCustomers = customers.collect {
-//	[id: it.CUSTOMERID, firstName: it.CUSTFIRSTNAME, lastName: it.CUSTLASTNAME, state: it.CUSTSTATE]
-//}
-//println allCustomers
-//
-//List waCustomers = allCustomers.findAll { it.CUSTSTATE == 'WA' }
-//println waCustomers.size()
-
-
-//String customerByStateSql = '''
-//select
-//	CUSTOMERID as "id",
-//	CUSTFIRSTNAME as "firstName",
-//	CUSTLASTNAME as "lastName"
-//from Customers
-//where CUSTSTATE = :state
-//'''
-//List waCustomers = db.rows customerByStateSql, [state: 'WA']
-//println "$waCustomers\n"
 
 //@ToString(includeNames = true)
 //class Customer {
 //	Integer id
 //	String firstName
 //	String lastName
+//	String state
+//	String zip
 //}
-//println waCustomers.collect { new Customer(it) }
 
 //String customerByIdSql = '''
 //select
 //	CUSTOMERID as "id",
 //	CUSTFIRSTNAME as "firstName",
-//	CUSTLASTNAME as "lastName"
+//	CUSTLASTNAME as "lastName",
+//	CUSTSTATE as "state",
+//	CUSTZIPCODE as "zip"
 //from Customers
 //where CUSTOMERID = ?
 //'''
-//Customer cust1003 = new Customer(db.firstRow(customerByIdSql, 1003))
-//print
+//
+//Customer cust1001 = new Customer(db.firstRow(customerByIdSql, 1001))
+//println "\n$cust1001"
+
+
+
+//String customersByStateAndZipSql = '''
+//select
+//	CUSTOMERID as "id",
+//	CUSTFIRSTNAME as "firstName",
+//	CUSTLASTNAME as "lastName"
+//from Customers
+//where CUSTSTATE = :state
+//and CUSTZIPCODE = :zip
+//'''
+//String state = 'WA'
+//String zip = '98052'
+//List waCustomers = db.rows customersByStateAndZipSql, [state: state, zip: zip]
+//println "\n$waCustomers\n"
+//
+//println waCustomers.collect { new Customer(it + [state: state, zip: zip]) }
+
+
 
 server.stop()
