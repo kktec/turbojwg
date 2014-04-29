@@ -1,3 +1,4 @@
+**Groovy vs. Java:**
 * semicolons are not needed
 * __return__ keyword is almost always optional
 * __def__ keyword means an undefined type
@@ -6,6 +7,8 @@
 * surrounding method parameters with __()__ is often optional
 * methods and constructors can be invoked with named parameters
 * operators are methods and can be overriden
+* exceptions behave as unchecked exceptions
+* powerful MetaObjectProgramming protocol
 
 -----
 **Default Imports:**
@@ -20,3 +23,11 @@
 * groovy.util.*
 
 -----
+
+![Typing] (images/typing.png)
+
+Image courtesy of __Venkat Subramaniam__ from his book __Programming Groovy, 2nd edition__
+
+_____
+
+
