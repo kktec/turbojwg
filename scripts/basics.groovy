@@ -1,3 +1,5 @@
+String city = 'MSN'
+
 def x // is using def a good idea ?
 
 //throw new Exception('All Exceptions are treated as unchecked in Groovy !')  // are checked Exceptions good or bad ?
@@ -58,8 +60,6 @@ def x // is using def a good idea ?
 //hello
 //'''
 
-String city = 'msn'
-
 //x = "hello $city"
 
 //x = "hello ${city.toUpperCase()}"
@@ -117,13 +117,33 @@ String city = 'msn'
 //x = { println 'Groovy is my favorite' } as Runnable
 //x.run()
 
-//String.metaClass.groovy = { 'I cannot wait to start using Groovy' }
-//x = ''.groovy()
-
 //String.metaClass.toUpperCase = { 'WARNING: with great power comes great responsibility' }
 //x = 'xx YY'.toUpperCase()
 
 
 
+//Closure c = { "$delegate cannot wait to start using Groovy" }
+//String.metaClass.groovy = c
+//println city.groovy()
+
+//println ''
+//println "owner is $c.owner"
+//println "delegate is $c.delegate"
+//println "resolveStrategy is $c.resolveStrategy"
+//println ''
+//println Closure.OWNER_FIRST
+//println Closure.DELEGATE_FIRST
+//println Closure.OWNER_ONLY
+//println Closure.DELEGATE_ONLY
+//println Closure.TO_SELF
+//println ''
+
+
+
 println x.getClass().getName()
 println x
+
+
+
+
+

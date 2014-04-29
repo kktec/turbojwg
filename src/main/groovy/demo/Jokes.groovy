@@ -18,13 +18,13 @@ class Jokes {
 	}
 	
 	static Collection fetchJokes(int number) {
-		(0..<number).collect { fetchJoke it }
+		(1..number).collect { fetchJoke it }
 	} 
 
 	static String fetchJoke(int index) {
 		String response = JOKE_URL.text
 		Map joke = new Gson().fromJson response, Map
-		"${index + 1}. $joke.value.joke"
+		"${index}. $joke.value.joke"
 	}
 
 	static Collection fetchJokesParallel(int number) {
