@@ -118,9 +118,9 @@ ruleset {
 	ToStringReturnsNull
 
 	// rulesets/dry.xml
-	DuplicateListLiteral
+	DuplicateListLiteral(enabled: false)
 	DuplicateMapLiteral(enabled: false)
-	DuplicateNumberLiteral
+	DuplicateNumberLiteral(enabled: false)
 	DuplicateStringLiteral(enabled: false)
 
 	// rulesets/enhanced.xml
@@ -339,7 +339,7 @@ ruleset {
 	ConsecutiveStringConcatenation
 	UnnecessaryBigDecimalInstantiation
 	UnnecessaryBigIntegerInstantiation
-	UnnecessaryBooleanExpression
+	UnnecessaryBooleanExpression(enabled: false)
 	UnnecessaryBooleanInstantiation
 	UnnecessaryCallForLastElement
 	UnnecessaryCallToSubstring

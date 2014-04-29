@@ -24,4 +24,3 @@ class AddressSpec extends Specification {
 		'TOO LONG'  | '123456' || 'maxSize'
 	}
 }
-  

@@ -8,6 +8,8 @@ codenarc {
 	configFile = file('config/codenarc.groovy')
 }
 
+defaultTasks 'clean', 'build'
+
 repositories {
 	jcenter()
 	mavenCentral()
@@ -15,7 +17,7 @@ repositories {
 
 dependencies {
 	compile 'org.codehaus.groovy:groovy-all:2.2.2'
-	compile 'org.codehaus.gpars:gpars:1.1.0'
+	compile 'org.codehaus.gpars:gpars:1.2.0'
 	compile 'com.google.code.gson:gson:2.2.4'
 	
 	runtime 'com.h2database:h2:1.4.177'
