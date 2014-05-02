@@ -46,7 +46,7 @@ Many of these books are available with a [Safari Books] (http://www.safaribookso
 * [Ratpack] (http://www.ratpack.io/) - simple, capable, toolkit for creating high performance web applications (not servlet based)
 * [vert.x] (http://vertx.io/) - lightweight, high performance application platform for the JVM, it's like a polyglot __node.js__ for JVM
 * [lazybones] (https://github.com/pledbrook/lazybones) - project creation tool not just for Groovy, but Spring Boot and more
-* [grooscript] (grooscript.org) - Groovy to Javascript converter
+* [grooscript] (http://grooscript.org/) - Groovy to Javascript converter
 * [Groovy DSL For Spring Integration] (https://github.com/spring-projects/spring-integration-dsl-groovy)
 * [groovycsv] (http://xlson.com/groovycsv/) - A simple CSV parsing library for groovy based on opencsv
 
@@ -73,7 +73,7 @@ Sites with lots of Groovy related presentations include [InfoQ] (http://www.info
 * [Spock: Test Well and Prosper] (http://www.infoq.com/presentations/Spock) - by Ken Kousen
 * [Spock: Soup to Nuts] (http://www.infoq.com/presentations/spock-testing) - by Zan Thrash
 * [Spock: A Highly Logical Way To Test] (http://www.infoq.com/presentations/spock) - by Howard Lewis Ship
-* [Taming Functional Web Testing with Spock and Geb] (http://www.infoq.com/presentations/testing-spock-geb) by Peter Niederwieser
+* [Taming Functional Web Testing with Spock and Geb] (http://www.infoq.com/presentations/testing-spock-geb) by Peter Niederwieser (Spock founder)
 
 -----
 
@@ -83,8 +83,7 @@ Sites with lots of Groovy related presentations include [InfoQ] (http://www.info
 * [plugins] (http://www.gradle.org/plugins)
 * [User Guide] (http://www.gradle.org/docs/current/userguide/userguide.html)
 * [Gradle Build Language Reference] (http://www.gradle.org/docs/current/dsl/index.html)
-* [javadoc] (http://www.gradle.org/docs/current/javadoc/index.html)
-* [groovydoc] (http://www.gradle.org/docs/current/groovydoc/index.html)
+* [API docs] (http://www.gradle.org/docs/current/javadoc/index.html)
 * [source code] (https://github.com/gradle)
 * [forum] (http://forums.gradle.org/gradle)
 * [issue tracker] (http://issues.gradle.org/secure/Dashboard.jspa)
@@ -113,7 +112,7 @@ Sites with lots of Groovy related presentations include [InfoQ] (http://www.info
 * [API docs] (http://grails.org/doc/latest/api) - substitue the version no. for _latest_ in the url for a specific version
 * [source code] (https://github.com/grails)
 * [forum] (http://grails.1312388.n4.nabble.com/Grails-user-f1312389.html)
-* [issue tracker] (http://jira.grails.org/secure/Dashboard.jspa)
+* [issue tracker] (http://jira.grails.org/browse/GRAILS/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel)
 
 ###Popular Plugins
 
@@ -150,12 +149,12 @@ Sites with lots of Groovy related presentations include [InfoQ] (http://www.info
 
 ###A few interesting presentations
 
-* [An Introduction To Web Development With Grails 2] - by Jeff Scott Brown
-* [Tutorial: Build Twitter with Groovy Grails in 90 Minutes] (http://www.youtube.com/watch?v=8d1hp8n1stA) - by Jeff Scott Brown
+* [An Introduction To Web Development With Grails 2] (http://www.infoq.com/presentations/web-app-grails-2) - by Jeff Scott Brown
 * [Securing Grails Applications] (http://www.infoq.com/presentations/security-grails-apps) - by Burt Beckwith
 * [Grails Transactions] (http://www.infoq.com/presentations/grails-transaction) - by Burt Beckwith
 * [Grails Plugin Best Practices] (http://www.infoq.com/presentations/grails-plugin-2gx) - by Burt Beckwith
 * [Grails Worst Practices] (http://www.youtube.com/watch?v=DSXJpS_Y9p0) -  by Burt Beckwith
 * [Message Driven Architecture in Grails] (http://www.infoq.com/presentations/grails-message-architecture) - by Dan Woods
 * [Testing Grails Applications] (http://www.infoq.com/presentations/test-grails-apps) - by Ken Kousen
+* [Road to Grails 3.0] (http://www.infoq.com/presentations/grails-3) - by Graeme Rocher
 
