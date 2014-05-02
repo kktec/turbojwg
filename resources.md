@@ -50,7 +50,7 @@ Many of these books are available with a [Safari Books] (http://www.safaribookso
 * [Groovy DSL For Spring Integration] (https://github.com/spring-projects/spring-integration-dsl-groovy)
 * [groovycsv] (http://xlson.com/groovycsv/) - A simple CSV parsing library for groovy based on opencsv
 
-###A few interesting presentations###
+###A few interesting presentations
 * [Metaprogramming With The Groovy Runtime - Part 1/2] (http://www.infoq.com/presentations/groovy-metaprogramming-1) - by Jeff Scott Brown
 * [Metaprogramming With The Groovy Compiler - Part 2/2] (http://www.infoq.com/presentations/groovy-metaprogramming-2) - by Jeff Scott Brown
 * [Making Java Groovy] (http://www.infoq.com/presentations/java-groovy-2gx) - by Ken Kousen
@@ -58,15 +58,15 @@ Many of these books are available with a [Safari Books] (http://www.safaribookso
 * [Design Patterns in Groovy] (http://www.infoq.com/presentations/groovy-design-patterns) by Venkat Subramaniam
 * [Application Architecture in Groovy] (http://www.infoq.com/presentations/groovy-app-architecture) - by Dan Woods
 
-Sites with lots of Groovy related presentations include [InfoQ] (http://www.infoq.com/), [Skills Matter] (https://skillsmatter.com/) and of course [YouTube] (http://www.youtube.com/)
+Sites with lots of Groovy related presentations include [InfoQ] (http://www.infoq.com/), [Vimeo[ (), [Skills Matter] (https://skillsmatter.com/) and of course [YouTube] (http://www.youtube.com/)
 
 -----
 
 ##Spock
 
 * [website] (https://code.google.com/p/spock/)
-* [issue tracker] (https://code.google.com/p/spock/issues/list)
 * [source code] (https://github.com/spockframework)
+* [issue tracker] (https://code.google.com/p/spock/issues/list)
 * [Reference Documentation] (http://docs.spockframework.org/en/latest/)
 
 ###A few interesting presentations
@@ -85,9 +85,10 @@ Sites with lots of Groovy related presentations include [InfoQ] (http://www.info
 * [Gradle Build Language Reference] (http://www.gradle.org/docs/current/dsl/index.html)
 * [javadoc] (http://www.gradle.org/docs/current/javadoc/index.html)
 * [groovydoc] (http://www.gradle.org/docs/current/groovydoc/index.html)
+* [source code] (https://github.com/gradle)
 * [forum] (http://forums.gradle.org/gradle)
 * [issue tracker] (http://issues.gradle.org/secure/Dashboard.jspa)
-* [source code] (https://github.com/gradle)
+* [Gradle Goodness] (http://mrhaki.blogspot.com/search/label/Gradle)
 
 ###Books
 
@@ -98,17 +99,67 @@ Sites with lots of Groovy related presentations include [InfoQ] (http://www.info
 
 ###A few interesting presentations
 
-
 * [The Art of Builds - An In-depth Comparison of Build Tools] (http://www.infoq.com/presentations/compare-build-tools) - by Hans Dockter (Gradle founder and team lead)
 * [Building a Continuous Delivery Pipeline with Gradle and Jenkins] (http://www.infoq.com/presentations/cd-gradle-jenkins) - by Peter Nierwieser (Gradle team member)
-* [Rocking the Gradle] (http://www.infoq.com/presentations/Gradle)- by Peter Walker (Gradle team member)
+* [Rocking the Gradle] (http://www.infoq.com/presentations/Gradle) - by Peter Walker (Gradle team member)
 
 -----
 
 ##Grails
 
 * [webite] (http://www.grails.org/)
-* [plugins] 
+* [plugins]  (http://grails.org/plugins/)
+* [User Guide] (http://grails.org/doc/latest/) - substitue the version no. for _latest_ in the url for a specific version
+* [API docs] (http://grails.org/doc/latest/api) - substitue the version no. for _latest_ in the url for a specific version
+* [source code] (https://github.com/grails)
+* [forum] (http://grails.1312388.n4.nabble.com/Grails-user-f1312389.html)
+* [issue tracker] (http://jira.grails.org/secure/Dashboard.jspa)
+
+###Popular Plugins
+
+Console and DBConsole
+Asset Pipline (manages static resources, compiles Coffescript/Less and more)
+Spring Security (core, ldap, acl, oauth, and many others)
+Spock and Geb
+Codenarc
+Joda-Time
+Quartz
+Cache
+Mongo, Neo4J, Redis, and more
+Database Migration (built on Liquibase)
+JQuery
+Twitter Bootstrap
+Google Visualization
+Searchable (built on Compass/Lucene)
+Audit Logging
+
+
+###Other Grails websites
+
+* [Grails Goodness] (http://mrhaki.blogspot.com/search/label/Grails)
+* [Bobby Warner] (http://bobbywarner.com/) - A series of short, useful screencasts demonstrating various aspects of using Grails
+* [Mastering Grails 101] (http://shop.oreilly.com/product/0636920024798.do) - by Tim Berglund and Matthew McCullough  - a 3:20 introductory training video, appox. $30, also available through Safari Books Online
+
+###Books
+
+* [The Definitive Guide to Grails 2] (http://www.apress.com/9781430243779) - by Graeme Rocher (founder and project lead) and Jeff Scott Brown
+* [Grails 2: A Quick-Start Guide] (http://pragprog.com/book/dkgrails2/grails-2-a-quick-start-guide) - by Dave Klein and Ben Klein
+* [Programming Grails - Best Practices for Experienced Grails Developers] (http://shop.oreilly.com/product/0636920024750.do) - by Burt Beckwith
+* [Grails in Action, 2nd Edition] (http://www.manning.com/gsmith2/) - by Glen Smith and Peter Ledbrook
+* [Grails Goodness Notebook] (https://leanpub.com/grails-goodness-notebook) - by Hubert Klein
+
+###A few interesting presentations
+
+* [An Introduction To Web Development With Grails 2] - by Jeff Scott Brown
+* [Tutorial: Build Twitter with Groovy Grails in 90 Minutes] (http://www.youtube.com/watch?v=8d1hp8n1stA) - by Jeff Scott Brown
+* [Securing Grails Applications] (http://www.infoq.com/presentations/security-grails-apps) - by Burt Beckwith
+* [Grails Transactions] (http://www.infoq.com/presentations/grails-transaction) - by Burt Beckwith
+* [Grails Plugin Best Practices] (http://www.infoq.com/presentations/grails-plugin-2gx) - by Burt Beckwith
+* [Message Driven Architecture in Grails] (http://www.infoq.com/presentations/grails-message-architecture) - by Dan Woods
+* [Testing Grails Applications] (http://www.infoq.com/presentations/test-grails-apps) - by Ken Kousen
+
+
+
 
 
 
