@@ -117,21 +117,21 @@ Sites with lots of Groovy related presentations include [InfoQ] (http://www.info
 
 ###Popular Plugins
 
-Console and DBConsole
-Asset Pipline (manages static resources, compiles Coffescript/Less and more)
-Spring Security (core, ldap, acl, oauth, and many others)
-Spock and Geb
-Codenarc
-Joda-Time
-Quartz
-Cache
-Mongo, Neo4J, Redis, and more
-Database Migration (built on Liquibase)
-JQuery
-Twitter Bootstrap
-Google Visualization
-Searchable (built on Compass/Lucene)
-Audit Logging
+* Console and DBConsole
+* Asset Pipline (manages static resources, compiles Coffescript/Less and more)
+* Spring Security (core, ldap, acl, oauth, and many others)
+* Spock and Geb
+* Codenarc
+* Joda-Time
+* Quartz
+* Cache
+* Mongo, Neo4J, Redis, and more
+* Database Migration (built on Liquibase)
+* JQuery
+* Twitter Bootstrap
+* Google Visualization
+* Searchable (built on Compass/Lucene)
+* Audit Logging
 
 
 ###Other Grails websites
@@ -155,15 +155,7 @@ Audit Logging
 * [Securing Grails Applications] (http://www.infoq.com/presentations/security-grails-apps) - by Burt Beckwith
 * [Grails Transactions] (http://www.infoq.com/presentations/grails-transaction) - by Burt Beckwith
 * [Grails Plugin Best Practices] (http://www.infoq.com/presentations/grails-plugin-2gx) - by Burt Beckwith
+* [Grails Worst Practices] (http://www.youtube.com/watch?v=DSXJpS_Y9p0) -  by Burt Beckwith
 * [Message Driven Architecture in Grails] (http://www.infoq.com/presentations/grails-message-architecture) - by Dan Woods
 * [Testing Grails Applications] (http://www.infoq.com/presentations/test-grails-apps) - by Ken Kousen
-
-
-
-
-
-
-
-
-
 
