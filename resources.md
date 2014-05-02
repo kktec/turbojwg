@@ -117,7 +117,7 @@ Sites with lots of Groovy related presentations include [InfoQ] (http://www.info
 ###Popular Plugins
 
 * Console and DBConsole
-* Asset Pipline (manages static resources, compiles Coffescript/Less and more)
+* Asset Pipline (manages i.e., combine/minify/uglify static resources, compiles Coffescript/Less/Sass/Handlebars and more)
 * Spring Security (core, ldap, acl, oauth, and many others)
 * Spock and Geb
 * Codenarc
@@ -136,6 +136,7 @@ Sites with lots of Groovy related presentations include [InfoQ] (http://www.info
 ###Other Grails websites
 
 * [Grails Goodness] (http://mrhaki.blogspot.com/search/label/Grails)
+* [An Army of Solipsists] (http://burtbeckwith.com/blog/) - Burt Beckwith's blog including [Converting Grails Applications to Plugins and vice versa] (http://burtbeckwith.com/blog/?p=1973)
 * [Bobby Warner] (http://bobbywarner.com/) - A series of short, useful screencasts demonstrating various aspects of using Grails
 * [Mastering Grails 101] (http://shop.oreilly.com/product/0636920024798.do) - by Tim Berglund and Matthew McCullough  - a 3:20 introductory training video, appox. $30, also available through Safari Books Online
 
