@@ -9,6 +9,7 @@
 * [User Guide] (http://groovy.codehaus.org/User+Guide)
 * [latest GAPI javadoc] (http://groovy.codehaus.org/gapi/)
 * [latest GDK javadoc] (http://groovy.codehaus.org/groovy-jdk/)
+* [Groovy Web Console] (http://groovyconsole.appspot.com/)
 
 ###Other Groovy websites
 
@@ -117,20 +118,22 @@ Sites with lots of Groovy related presentations include [InfoQ] (http://www.info
 ###Popular Plugins
 
 * Console and DBConsole
-* Asset Pipline (manages i.e., combine/minify/uglify static resources, compiles Coffescript/Less/Sass/Handlebars and more)
-* Spring Security (core, ldap, acl, oauth, and many others)
+* Asset Pipline (manages i.e., combine/minify/uglify static resources or fetch from CDN, compiles Coffescript/Less/Sass/Handlebars and more)
+* Spring Security (core, ldap, acl, oauth, and others) and Schiro
 * Spock and Geb
 * Codenarc
 * Joda-Time
 * Quartz
-* Cache
+* Cache, Spring Cache
 * Mongo, Neo4J, Redis, and more
 * Database Migration (built on Liquibase)
-* JQuery
+* JQuery and its plugins
 * Twitter Bootstrap
 * Google Visualization
 * Searchable (built on Compass/Lucene)
 * Audit Logging
+* Stripe
+* CloudFoundry, Heroku, AWS, CloudBees, AppEngine, and more
 
 
 ###Other Grails websites
