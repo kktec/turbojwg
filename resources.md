@@ -17,7 +17,6 @@
 * [Groovy Goodness] (http://mrhaki.blogspot.com/search/label/Groovy%3AGoodness) - from Hubert Klein's blog (mrhaki)
 * [GR8Conf] (http://gr8conf.us/) - Conference for all things Groovy/Grails - summer in Minneapolis
 
-
 An interesting article comparing functional programming [From Groovy to Java 8] (http://www.infoq.com/articles/groovy-to-Java-8) - by Dan Woods
 
 ###Books
@@ -115,7 +114,7 @@ Sites with lots of Groovy related presentations include [InfoQ] (http://www.info
 * [forum] (http://grails.1312388.n4.nabble.com/Grails-user-f1312389.html)
 * [issue tracker] (http://jira.grails.org/browse/GRAILS/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel)
 
-###Popular Plugins
+###Popular/Interesting Plugins
 
 * Console and DBConsole
 * Asset Pipline (manages i.e., combine/minify/uglify static resources or fetch from CDN, compiles Coffescript/Less/Sass/Handlebars and more)

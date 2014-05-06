@@ -1,10 +1,8 @@
-String city = 'MSN'
-
-def x // is using def a good idea ?
+def x //  what if x type is int ? is using def a good idea ?
 
 //throw new Exception('All Exceptions are treated as unchecked in Groovy !')  // are checked Exceptions good or bad ?
 
-//x = 13 // what if x type is int ?
+//x = 13
 
 //x = 13 + 50
 //x = 13.plus(50)
@@ -60,6 +58,8 @@ def x // is using def a good idea ?
 //hello
 //'''
 
+String city = 'MSN'
+
 //x = "hello $city"
 
 //x = "hello ${city.toUpperCase()}"
@@ -99,7 +99,7 @@ def x // is using def a good idea ?
 //x = { 'Groovy is fantastic' }
 //println x.call()
 
-//x = { "Groovy is number $it" }
+//x = { "Groovy is number $it" } // should you use 'it' or named closure params ?
 //println x.call(1)
 
 //x = { comment -> 

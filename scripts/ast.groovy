@@ -68,6 +68,7 @@ assert a.asOf == today
  * InheritConstructors - make constructors from a super class available in a sub class
  * Lazy - Field annotation to simplify lazy initialization
  * ListenerList - adds Java-style listener support to a class based on an annotated Collection-property
+ * Commons, Log, Log4j, Log4j2, Slf4j injects a 'log' field into the class
  * Memoized - creates a cache for the results of the execution of the annotated method
  * Synchronized - safer variant of the synchronized method modifier - different locks
  * TypeChecked - use compile time checks in the style of Java
