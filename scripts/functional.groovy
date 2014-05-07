@@ -31,32 +31,22 @@ class TimeRecord {
 
 
 //List ot = timeRecords.findAll { it.type == 'OT' }              // FILTER
+
 //List otRecords = ot.collect { new TimeRecord(it) }             // MAP
+
 //BigDecimal otHours = otRecords.inject(0.0) { total, value ->   // REDUCE
 //	total += value.hours
 //}
+
 //println ot
 //println otRecords
 //println otHours
 //println ot.sum { it.hours }
 
-//List codes = timeRecords.collect { it.code }
-//println codes
-//println timeRecords*.code
-
+//Set uniqueCodes = timeRecords.collect { it.code }
 //Set uniqueCodes = timeRecords*.code
 //println "\n$uniqueCodes\n"
 //uniqueCodes.asImmutable() << 'whatever'
-
-
-//Map hoursByProject = timeRecords.groupBy(
-//	{  it.project }, // can add more Closures for sub-groups
-//).findAll { it.key != null }
-//.collectEntries { k, v ->
-//	[k, v.hours.sum()]
-//}.sort { it.key }
-//hoursByProject.each { println "Project $it.key Hours = $it.value"}
-
 
 
 //List numbers = [1, 2, 3, 4, 5]
@@ -70,22 +60,7 @@ class TimeRecord {
 
 
 
-//println ''
-//List stack = []
-//stack.push 1
-//println stack
-//stack.push 2
-//println stack
-//stack.push 'plus'
-//println stack
-//
-//String operation = stack.pop()
-//println stack
-//Integer operand2 = stack.pop()
-//println stack
-//Integer operand1 = stack.pop()
-//println stack
-//println operand1.invokeMethod(operation, [operand2])
-
-
-
+//numbers.push 13
+//println numbers
+//println numbers.pop()
+//println numbers

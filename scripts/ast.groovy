@@ -17,7 +17,7 @@ assert a.asOf == today
 
 //class Person {
 //	String name
-//	@Delegate Address address // first @Delegate delcared wins
+//	@Delegate Address address // first @Delegate declared wins
 //}
 //
 //Person p = new Person(name: 'ken', address: a)

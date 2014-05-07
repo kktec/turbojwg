@@ -28,8 +28,8 @@ class Jokes {
 	}
 
 	static Collection fetchJokesParallel(int number) {
-		GParsExecutorsPool.withPool(number) {
-			(0..<number).collectParallel { fetchJoke it }
+		GParsExecutorsPool.withPool {
+			(1..number).collectParallel { fetchJoke it }
 		}
 	} 
 

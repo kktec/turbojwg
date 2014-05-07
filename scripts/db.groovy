@@ -60,5 +60,5 @@ println "\nNo. of customers: ${customers.size()}"
 //println waCustomers.collect { new Customer(it + [state: state, zip: zip]) }
 
 
-
+db.close()
 server.stop()

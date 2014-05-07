@@ -18,11 +18,7 @@ class GUser {
 
 	Date joinedOn
 
-	String getFullName() {
-		"$firstName $lastName"
-	}
+	String getFullName() { "$firstName $lastName" }
 
-	String toString() {
-		username
-	}
+	String toString() { username }
 }
