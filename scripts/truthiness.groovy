@@ -1,20 +1,11 @@
-x = true
-//x =  false
-//x =  null
+List truthyValues = [true, 1, 1.1, 'hello', [1], [a: 1]]
+truthyValues.each { 
+	Boolean truthy = it
+	println truthy
+}
 
-//x =  1
-//x =  0
-
-//x =  1.0
-//x =  0.0
-
-//x =  'hi'
-//x =  ''
-
-//x =  ['']
-//x =  []
-
-//x =  [s: '']
-//x =  [:]
-
-println "$x is ${x ? 'truthy' : 'falsey'}"
+List falsyValues = [false, 0, 0.0, '', [], [:]]
+falsyValues.each {
+	Boolean truthy = it
+	println truthy
+}

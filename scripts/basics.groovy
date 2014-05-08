@@ -1,30 +1,20 @@
 import demo.GUser
 import demo.JUser
 
-//println this
-
 //throw new Exception('All Exceptions are treated as unchecked in Groovy !') 
 // are checked Exceptions a good idea ?
 
-def x // is using def a good idea ?
+def x = this // is using def a good idea ? what if x type is defined as int ?
 
-//x = 13 // what if x type is defined as int ?
-
-//x = 13 + 50
+//x = 13
 //x = 13.5
 //x = 13.9D
 
 
 //x = 13.55555.setScale(4, java.math.RoundingMode.HALF_UP)
 //assert x == 13.5555
-//println x <=> 13.555
 //println x.is(13.5556)
-
-//x = 13.plus(50.0)
-
-//assert 13.5 == 13.50000 // is this true in Java ? 
-//assert 13.5 + 2.84 == 16.34
-//assert 13.5 + 2.84D == 16.34
+//assert 13.5 == 13.50000 // is this true in Java ?
 
 //class Person {
 //	String name
@@ -36,95 +26,67 @@ def x // is using def a good idea ?
 //
 //x = new Person(name: 'ken')
 //println x.dump()
-//y = new Person(name: 'ken')
-//
 //x = new Person()
-//println x == y
-//println x.is(y)
 //println 'name is ' + x.name?.toUpperCase()
 
 
 //x = '123' as Integer
-//x = '456'.toInteger()
 
-//int y = '789'
-//x = y
-//println y
-
-//x = new GUser(username: 'kktec')
-//x = new JUser(username: 'ken')
-
-
+//x = ''
 //x = 'hello'[1]
 //x = 'hello'.substring(0, 4)
-//x = 'hello'[-1]
 //x = 'hello'[0..3]
+//x = 'hello'[-1]
 //x = 'hello'[-1..0]
-
+//
 //x = 'hello'.reverse()
 //x = 'hello'.capitalize()
 //x = 'hello'.center(13)
 //x = 'hello'.padRight(13, '_')
-
-String city = 'MSN'
+//
+//String city = 'MSN'
 //println city.size()
 //x = "hello $city"
-
-//x = "hello ${city.toUpperCase()}"
-
+//
+//x = "hello ${city.toLowerCase()}"
+//
 //x = '''
 //hello
 //'''
-
+//
 //x = """
 //hello
 //$city
 //"""
-
+//
 //x = /\d{3}/
 //assert '1A3' =~ x
 //assert '123A' =~ x
-//assert '12' ==~ x
-//assert '123' ==~ x
 
 
 //x = []
-//x = [1, 2, 3,] // note the extra comma !
+//x = [1, 2, 3]
 //println x.size()
-//x = [] as Object[]
+//x = [1, 2, 3] as Object]
+//println x.size()
 //x = [] as LinkedList
 //x = [] as Set
+
 //x = [:]
 //x = [name: 'kkktec', favoriteLanguage: 'Groovy']
 //x = [:] as java.util.concurrent.ConcurrentHashMap
 //println x.size()
-
+//
 //x = '456'.toList()
 //x = x.join(',')
 //x = x.split(',')
 
 
 
-//class Duck {
-//	String quack() { 'quack' }
-//}
-//def quacker = new Duck()
-//x = quacker.quack()
-//
-//
-//class BadDoctor {
-//	String quack() { 'take these pills and you will lose weight AND be cured of all your illnesses' }
-//}
-//quacker = new BadDoctor()
-//x = quacker.quack()
-
-
-//x = 1 <=> 2
-
 
 //x = {}
 //println x.call()
-
+//
 //x = { 'Groovy is fantastic' }
 //println x.call()
 
@@ -153,9 +115,9 @@ String city = 'MSN'
 //x.run()
 
 //x = 7
-//def c = { println "x is $x" }
+//def c = { println "x is $x" }`
 //c.call()
-
+//
 //println "owner is $c.owner"
 //println "delegate is $c.delegate"
 //println "resolveStrategy is $c.resolveStrategy"
@@ -169,8 +131,8 @@ String city = 'MSN'
 
 
 
-String.metaClass.warning = { 'WARNING: with great power comes great responsibility' }
-x = ''.warning()
+//String.metaClass.warning = { 'WARNING: with great power comes great responsibility' }
+//x = ''.warning()
 
 
 

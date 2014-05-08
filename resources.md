@@ -4,6 +4,7 @@
 
 * [website] (http://groovy.codehaus.org/)
 * [source code] (https://github.com/groovy/groovy-core)
+* [forum] (http://groovy.329449.n5.nabble.com/groovy-user-f329450.html)
 * [issue tracker] (http://jira.codehaus.org/secure/BrowseProject.jspa?id=10242)
 * [Documentation Portal] (http://groovy.codehaus.org/Documentation)
 * [User Guide] (http://groovy.codehaus.org/User+Guide)
@@ -14,7 +15,7 @@
 ###Other Groovy websites
 
 * [project lead Guillame LaForge's blog] (http://glaforge.appspot.com/) - contains __This week in Groovy__ newsletter
-* [Groovy Goodness] (http://mrhaki.blogspot.com/search/label/Groovy%3AGoodness) - from Hubert Klein's blog (mrhaki)
+* [Groovy Goodness] (http://mrhaki.blogspot.com/search/label/Groovy%3AGoodness) - from Hubert Klein Ikkink's blog (mrhaki)
 * [GR8Conf] (http://gr8conf.us/) - Conference for all things Groovy/Grails - summer in Minneapolis
 
 An interesting article comparing functional programming [From Groovy to Java 8] (http://www.infoq.com/articles/groovy-to-Java-8) - by Dan Woods
@@ -26,7 +27,7 @@ An interesting article comparing functional programming [From Groovy to Java 8] 
 * [Making Java Groovy] (http://www.manning.com/kousen/) - by Ken Kousen
 * [Groovy for Domain-Specific Languages] (http://www.packtpub.com/groovy-for-domain-specific-languages-dsl/book) - by Fergal Dearle
 * [Groovy2 Cookbook] (http://www.packtpub.com/groovy-2-cookbook/book) - by Andrey Adamovich, Luciano Fiandesio
-* [Groovy Goodness Notebook] (https://leanpub.com/groovy-goodness-notebook) - by Hubert Klein
+* [Groovy Goodness Notebook] (https://leanpub.com/groovy-goodness-notebook) - by Hubert Klein Ikkink
 
 Many of these books are available with a [Safari Books] (http://www.safaribooksonline.com/) subscription
 
@@ -35,7 +36,7 @@ Many of these books are available with a [Safari Books] (http://www.safaribookso
 * [GroovyEclipse] (http://groovy.codehaus.org/Eclipse+Plugin)
 * [Groovy/Grails Tool Suite] (http://grails.org/products/ggts) - a version of SpringSource Tool Suite
 * [IntelliJ IDEA] (http://groovy.codehaus.org/IntelliJ+IDEA+Plugin+by+JetBrains)
-* [GVM - the Groovy enVironment Manager] (http://gvmtool.net/) - tool for managing parallel Versions of multiple Software Development Kits on most Unix based systems, including cygwin
+* [GVM - the Groovy enVironment Manager] (http://gvmtool.net/) - tool for managing parallel Versions of multiple Software Development Kits on most Unix based systems, including Cygwin on Windows and just recently PowerShell
 * [Codenarc] (http://codenarc.sourceforge.net/) - analyzes Groovy code for defects, bad practices, inconsistencies, style issues and more
 
 ###Some other interesting Groovy Tools
@@ -93,7 +94,7 @@ Sites with lots of Groovy related presentations include [InfoQ] (http://www.info
 
 * [Building and Testing with Gradle] (http://shop.oreilly.com/product/0636920019909.do) - by Tim Berglund and Matthew McCullough - [read free online] (http://www.gradleware.com/registered-access?content=books%2Fbuilding-and-testing%2F)
 * [Gradle Beyond the Basics] (http://shop.oreilly.com/product/0636920019923.do) - by Tim Berglund
-* [Gradle Effective Implementation Guide] (http://shop.oreilly.com/product/9781849518109.do) - by Hubert Klein
+* [Gradle Effective Implementation Guide] (http://shop.oreilly.com/product/9781849518109.do) - by Hubert Klein Ikkink
 * [Gradle in Action] (http://www.manning.com/muschko/) - by Benjamin Muschko (Gradle team member)
 
 ###A few interesting presentations
@@ -148,7 +149,7 @@ Sites with lots of Groovy related presentations include [InfoQ] (http://www.info
 * [Grails 2: A Quick-Start Guide] (http://pragprog.com/book/dkgrails2/grails-2-a-quick-start-guide) - by Dave Klein and Ben Klein
 * [Programming Grails - Best Practices for Experienced Grails Developers] (http://shop.oreilly.com/product/0636920024750.do) - by Burt Beckwith
 * [Grails in Action, 2nd Edition] (http://www.manning.com/gsmith2/) - by Glen Smith and Peter Ledbrook
-* [Grails Goodness Notebook] (https://leanpub.com/grails-goodness-notebook) - by Hubert Klein
+* [Grails Goodness Notebook] (https://leanpub.com/grails-goodness-notebook) - by Hubert Klein Ikkink
 
 ###A few interesting presentations
 
