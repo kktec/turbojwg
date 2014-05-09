@@ -4,7 +4,7 @@
 
 * [website] (http://groovy.codehaus.org/)
 * [source code] (https://github.com/groovy/groovy-core)
-* [forum] (http://groovy.329449.n5.nabble.com/groovy-user-f329450.html)
+* [forum] (http://groovy.329449.n5.nabble.com/groovy-user-f329450.html) now DEPRECATED in favor StackOverflow w/ grails tag
 * [issue tracker] (http://jira.codehaus.org/secure/BrowseProject.jspa?id=10242)
 * [Documentation Portal] (http://groovy.codehaus.org/Documentation)
 * [User Guide] (http://groovy.codehaus.org/User+Guide)

@@ -1,14 +1,4 @@
-List falsyValues = [false, 0, 0.0, '', [], [:]]
-falsyValues.each {
-	Boolean truthy = it
-	println truthy
-}
+List falsyValues = [false, null, 0, 0.0, '', [], [:]]
 
-println ''
-
-List truthyValues = [true, 1, 1.1, 'hello', [1], [a: 1]]
-truthyValues.each {
-	Boolean truthy = it
-	println truthy
-}
+List truthyValues = [true, new Object(), 1, 1.1, 'hello', [1], [a: 1]]
 

@@ -6,9 +6,9 @@ def x = this // is using def a good idea ?
 //x = 13.5
 //x = 13.5D
 
-//x = 13.555.setScale(, java.math.RoundingMode.HALF_UP)
-//assert x == 13.555
-//println x.is(13.556)
+//x = 13.555.setScale(2, java.math.RoundingMode.HALF_UP)
+//assert x == 13.55
+//println x.is(13.56)
 
 //x = new JUser(username: 'ken')
 //println x.dump()
@@ -46,8 +46,8 @@ String city = 'MSN'
 //"""
 
 //x = /\d{3}/
-//println '1A3' =~ x
-//println '123A' =~ x
+//assert '1A3' =~ x
+//assert '123A' ==~ x
 
 
 //x = []
