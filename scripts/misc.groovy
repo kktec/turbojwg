@@ -1,23 +1,19 @@
-import groovy.swing.SwingBuilder
-
-import javax.swing.JFrame
-import javax.swing.WindowConstants
-
-// Execute a process - check Java and Groovy documentation
-//Process p = 'git status'.execute()
-//println p.text
+// Execute a process and print the result
+println 'git status'.execute().text
 
 
 
 // Execute a script stored in a database or created on the fly
-//String script = '''
-//numbers.each {
-//	println function.call(it)
-//}
-//'''
-//
-//Binding binding = new Binding(numbers: [1, 2, 3], function: { it ** 2 })
+String script = '''
+numbers.each {
+	println function(it)
+}
+'''
+
+Binding binding = new Binding(numbers: [1, 2, 3], function: { it ** 2 })
 //new GroovyShell(binding).evaluate script
+
+
 
 
 //SwingBuilder swing = new SwingBuilder()
@@ -33,4 +29,4 @@ import javax.swing.WindowConstants
 //}
 //frame.visible = true
 
-// for better desktop apps see the Griffon project: JavaFx, Swing, and more toolkits
+//for better desktop apps see the Griffon project: JavaFx, Swing, and more toolkits

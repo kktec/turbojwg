@@ -5,27 +5,22 @@ import org.h2.tools.Server
 
 Server server = Server.createTcpServer().start()
 
-//Sql db = new Sql(dataSource)
-
 Sql db =  Sql.newInstance url: 'jdbc:h2:tcp://localhost/./db/demo', user: 'sa', password: '', driver: 'org.h2.Driver'
-
-//db.execute new File('ddl.sql').text
-//db.execute new File('data.sql').text
-
+//Sql db = new Sql(dataSource)
 
 List customers = db.rows 'select * from Customers'
 println customers
 println "\nNo. of customers: ${customers.size()}"
 
 
-//@ToString(includeNames = true)
-//class Customer {
-//	Integer id
-//	String firstName
-//	String lastName
-//	String state
-//	String zip
-//}
+@ToString(includeNames = true)
+class Customer {
+	Integer id
+	String firstName
+	String lastName
+	String state
+	String zip
+}
 
 //String customerByIdSql = '''
 //select
@@ -56,9 +51,9 @@ println "\nNo. of customers: ${customers.size()}"
 //String zip = '98052'
 //List waCustomers = db.rows customersByStateAndZipSql, [state: state, zip: zip]
 //println "\n$waCustomers\n"
-//
+
 //println waCustomers.collect { new Customer(it + [state: state, zip: zip]) }
 
-
 db.close()
+
 server.stop()

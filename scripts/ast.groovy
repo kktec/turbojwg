@@ -8,24 +8,26 @@ Date today = new Date()
 
 Address a = new Address('123 Easy St.', '#1', 'MSN', 'WI', '53704', today)
 println a
-//a.city = 'MKE'
+//a.city = 'MKE' // Immutable !
 
 //assert a.asOf == today
 //assert a.asOf.is(today)
 
-//class Entity {}
+
+
 // we want the primaryAddress values exposed on the Person class
 // we want to use composition, not inheritance
+//class Entity {}
 //class Person extends Entity {
 //	String name
 //
 //	@Delegate 
 //	Address primaryAddress // first @Delegate declared wins
 //
-//	Address secondaryAddress // first @Delegate declared wins
+//	Address secondaryAddress
 //}
-
-//Person p = new Person(name: 'ken', address: a)
+//
+//Person p = new Person(name: 'ken', primaryAddress: a)
 //println "$p.name's city is $p.city"
 
 
@@ -56,10 +58,8 @@ println a
 //Distance m2 = new Distance(Distance.Unit.METERS, 400)
 //println m2
 //assert m1 == m2
-//
-//Distance e = new Distance(Distance.Unit.YARDS, 400)
-//println e
-//assert m1 == e
+//println m1.hashCode()
+
 
 
 /*

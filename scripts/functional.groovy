@@ -18,7 +18,7 @@ List timeRecords = [
 	[id: 66, code: 'admin', type: 'ST', project: null, hours: 1.1],
 	[id: 66, code: 'project', type: 'ST', project: 3, hours: 6.2],
 	[id: 66, code: 'project', type: 'OT', project: 1, hours: 8.0],
-]
+]  // how many lines of Java code would you need ?
 
 @Immutable
 class TimeRecord {
@@ -30,8 +30,8 @@ class TimeRecord {
 }
 
 
-//List ot = timeRecords.findAll { it.type == 'OT' }              // FILTER
-//println ot
+List ot = timeRecords.findAll { it.type == 'OT' }              // FILTER
+println ot
 
 //List otRecords = ot.collect { new TimeRecord(it) }             // MAP
 //println otRecords
@@ -51,16 +51,15 @@ class TimeRecord {
 //uniqueCodes.asImmutable() << 'whatever'
 
 
+// The Groovy JDK provides a host of new methods you can use on Collections
+// and support for Memoization and TailCallRecursion
 
 //List numbers = [1, 2, 3, 4, 5]
 //println numbers.collate(2)
+
 //Set permutations = numbers.permutations()
 //println permutations
 //println permutations.size()
-//println numbers.last()
-//println numbers.tail()
-//println numbers.take(3)
-
 
 
 //numbers.push 13

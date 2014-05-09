@@ -16,11 +16,6 @@ println languages.text
 //}
 //println langs
 
-//println '\nPopular JVM LANGUAGES:'
-//langs.each { println "$it" }
-
-
-
 
 //StringWriter writer = new StringWriter()
 //MarkupBuilder mb = new MarkupBuilder(writer)
@@ -43,12 +38,12 @@ println languages.text
 
 
 
-//JsonBuilder jsb = new JsonBuilder(langs)
-//println "$jsb\n"
-//println jsb.toPrettyString()
+JsonBuilder jsb = new JsonBuilder(langs)
+println "$jsb\n"
+println jsb.toPrettyString()
 
-//JsonSlurper js = new JsonSlurper()
-//def jso = js.parseText(jsb.toString())
-//println "\n$jso"
+JsonSlurper js = new JsonSlurper()
+def jso = js.parseText(jsb.toString())
+println "\n$jso"
 
 

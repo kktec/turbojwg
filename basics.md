@@ -24,9 +24,10 @@ Image courtesy of __Venkat Subramaniam__ from his book __Programming Groovy, 2nd
 * exceptions behave as unchecked exceptions
 * semicolons are not needed
 * __return__ keyword is almost always optional
+* the default access modifier is __public__, not __package__
 * __def__ keyword means an undefined type
 * everything is an Object, all primitives are autoboxed
-* the default access modifier is __public__, not __package__
+* a power assert is always available
 * nice syntax for String, array, and Collection literals
 * Javabean properties are first-class citizens
 * methods and constructors can be invoked with named parameters
