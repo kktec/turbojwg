@@ -1,10 +1,9 @@
-import demo.GUser
 import demo.JUser
+
+def x = this // is using def a good idea ? what if x type is defined as int ?
 
 //throw new Exception('All Exceptions are treated as unchecked in Groovy !') 
 // are checked Exceptions a good idea ?
-
-def x = this // is using def a good idea ? what if x type is defined as int ?
 
 //x = 13
 //x = 13.5
@@ -12,27 +11,18 @@ def x = this // is using def a good idea ? what if x type is defined as int ?
 
 
 //x = 13.55555.setScale(4, java.math.RoundingMode.HALF_UP)
-//assert x == 13.5555
+//assert x == 13.5556
 //println x.is(13.5556)
-//assert 13.5 == 13.50000 // is this true in Java ?
 
-//class Person {
-//	String name
-//	
-//	boolean equals(other) { name == other.name }
-//	int hashcode() { name.hashcode() }
-//	String toString() { name }
-//}
-//
-//x = new Person(name: 'ken')
+//x = new JUser(username: 'ken')
 //println x.dump()
-//x = new Person()
-//println 'name is ' + x.name?.toUpperCase()
+//x = new JUser()
+//println 'username is ' + x.username?.toUpperCase()
 
 
 //x = '123' as Integer
 
-//x = ''
+//x = 'xyz'
 //x = 'hello'[1]
 //x = 'hello'.substring(0, 4)
 //x = 'hello'[0..3]
@@ -43,66 +33,55 @@ def x = this // is using def a good idea ? what if x type is defined as int ?
 //x = 'hello'.capitalize()
 //x = 'hello'.center(13)
 //x = 'hello'.padRight(13, '_')
-//
-//String city = 'MSN'
+
+String city = 'MSN'
 //println city.size()
 //x = "hello $city"
-//
+
 //x = "hello ${city.toLowerCase()}"
-//
+
 //x = '''
 //hello
-//'''
 //
+//world
+//'''
+
 //x = """
 //hello
 //$city
 //"""
-//
+
 //x = /\d{3}/
-//assert '1A3' =~ x
+////assert '1A3' =~ x
 //assert '123A' =~ x
 
 
 //x = []
 //x = [1, 2, 3]
 //println x.size()
-//x = [1, 2, 3] as Object]
-//println x.size()
+//x = [1, 2, 3] as Object[]
 //x = [] as LinkedList
 //x = [] as Set
 
 //x = [:]
 //x = [name: 'kkktec', favoriteLanguage: 'Groovy']
-//x = [:] as java.util.concurrent.ConcurrentHashMap
-//println x.size()
-//
-//x = '456'.toList()
-//x = x.join(',')
-//x = x.split(',')
-
-
+//x = [] as java.util.concurrent.ConcurrentHashMap
 
 
 //x = {}
-//println x.call()
-//
-//x = { 'Groovy is fantastic' }
-//println x.call()
+//println x()
 
-//x = [a: '1', b: '2']
-//x.with {
-//	assert a == '1'
-//	assert b == '3'
-//}
+//x = { 'Groovy is fantastic' }
+//println x()
+
 
 //x = { "Groovy is number $it" } // should you use 'it' or named closure params ?
-//println x.call(1)
+//println x(1)
 
 //x = { comment -> 
 //	"Groovy is $comment"
 //}
-//println x.call('really powerful')
+//println x('really powerful')
 
 //x = new Runnable() {
 //	void run() {
@@ -115,20 +94,29 @@ def x = this // is using def a good idea ? what if x type is defined as int ?
 //x.run()
 
 //x = 7
-//def c = { println "x is $x" }`
-//c.call()
-//
+//def c = { println "x is $x" }
+//c()
+
 //println "owner is $c.owner"
+
 //println "delegate is $c.delegate"
+
+//c = { println username }
+//user = new JUser(username: 'ken')
+//c.delegate = user
+//println "delegate is $c.delegate"
+//c()
+
+
 //println "resolveStrategy is $c.resolveStrategy"
 //println ''
 //println Closure.OWNER_FIRST
 //println Closure.DELEGATE_FIRST
 //println Closure.OWNER_ONLY
 //println Closure.DELEGATE_ONLY
-//println Closure.TO_SELF
 
-
+//x = [name: 'me', warning: { 'oh oh' }]
+//println x.warning()
 
 
 //String.metaClass.warning = { 'WARNING: with great power comes great responsibility' }

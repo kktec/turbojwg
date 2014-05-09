@@ -5,6 +5,20 @@ import spock.lang.Unroll
 
 class AddressSpec extends Specification {
 	
+	def 'address1 can be properly set and is immutable'() {
+		given:
+		Address a = new Address(address1: '123 EZ St.')
+		
+		expect:
+		a.address1 == '123 EZ St.'
+		
+		when:
+		a.address1 = 'xyz'
+		
+		then:
+		thrown(ReadOnlyPropertyException)
+	}
+	
 	@Unroll
 	def 'validation #scenario scenario for zip value #zip yields error code #error' () {
 		given:

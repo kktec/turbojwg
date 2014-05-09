@@ -1,4 +1,4 @@
-import groovy.transform.ToString
+import groovy.transform.Immutable
 
 List timeRecords = [
 	[id: 12, code: 'project', type: 'ST', project: 1, hours: 25.1],
@@ -20,7 +20,7 @@ List timeRecords = [
 	[id: 66, code: 'project', type: 'OT', project: 1, hours: 8.0],
 ]
 
-@ToString
+@Immutable
 class TimeRecord {
 	Integer id
 	String code
@@ -31,22 +31,25 @@ class TimeRecord {
 
 
 //List ot = timeRecords.findAll { it.type == 'OT' }              // FILTER
+//println ot
 
 //List otRecords = ot.collect { new TimeRecord(it) }             // MAP
+//println otRecords
 
 //BigDecimal otHours = otRecords.inject(0.0) { total, value ->   // REDUCE
 //	total += value.hours
 //}
-
-//println ot
-//println otRecords
 //println otHours
-//println ot.sum { it.hours }
+
+//println ot.sum { it.hours } ?: 0.0
+
+
 
 //Set uniqueCodes = timeRecords.collect { it.code }
 //Set uniqueCodes = timeRecords*.code
 //println "\n$uniqueCodes\n"
 //uniqueCodes.asImmutable() << 'whatever'
+
 
 
 //List numbers = [1, 2, 3, 4, 5]

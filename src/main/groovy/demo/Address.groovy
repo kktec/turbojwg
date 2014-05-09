@@ -13,9 +13,18 @@ class Address {
 	
 	String city
 	
+	String state
+	
 	String zip
 	
 	Date asOf
+	
+	
+	
+	
+	
+	
+	
 	
 	// NOTE: only supports zip short form at this time
 	Map validate() {

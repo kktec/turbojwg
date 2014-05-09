@@ -68,7 +68,9 @@ Sites with lots of Groovy related presentations include [InfoQ] (http://www.info
 * [website] (https://code.google.com/p/spock/)
 * [source code] (https://github.com/spockframework)
 * [issue tracker] (https://code.google.com/p/spock/issues/list)
+* [Spock Basics] (https://code.google.com/p/spock/wiki/SpockBasics)
 * [Reference Documentation] (http://docs.spockframework.org/en/latest/)
+* [web console] (http://meetspock.appspot.com/?id=9001)
 
 ###A few interesting presentations
 * [Spock: Test Well and Prosper] (http://www.infoq.com/presentations/Spock) - by Ken Kousen

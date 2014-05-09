@@ -6,20 +6,25 @@ import demo.Address
 
 Date today = new Date()
 
-Address a = new Address('123 Easy St.', '#1', 'MSN', '53704', today)
+Address a = new Address('123 Easy St.', '#1', 'MSN', 'WI', '53704', today)
 println a
 //a.city = 'MKE'
 
-assert a.asOf == today
+//assert a.asOf == today
 //assert a.asOf.is(today)
 
-
-
-//class Person {
+//class Entity {}
+// we want the primaryAddress values exposed on the Person class
+// we want to use composition, not inheritance
+//class Person extends Entity {
 //	String name
-//	@Delegate Address address // first @Delegate declared wins
-//}
 //
+//	@Delegate 
+//	Address primaryAddress // first @Delegate declared wins
+//
+//	Address secondaryAddress // first @Delegate declared wins
+//}
+
 //Person p = new Person(name: 'ken', address: a)
 //println "$p.name's city is $p.city"
 

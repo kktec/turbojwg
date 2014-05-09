@@ -1,8 +1,7 @@
 def x = 0
 
-//do { // unsupported
-//	
-//} while (x < 5)
+// all java loops and conditionals are supported except do-while
+
 
 //if (!x) {
 //	println 'no x'
@@ -10,20 +9,14 @@ def x = 0
 //	print 'got x'
 //}
 
-//println x ? 'x' : 'y'
-
 //println x ?: 'y'
-
-
-//5.times { println it }
-
-//(0..<5).each { println it }
 
 //for (i in 0..4) { println i }
 
 
 import java.sql.Date as DbDate
-//
+
+//// try this!
 //class Xyz {}
 //stuff = ['x', 3, new Date(), 'y', 25, { 'i need closure' }, new Xyz(), new DbDate(51, 5, 8)]
 //stuff.each {
@@ -34,5 +27,5 @@ import java.sql.Date as DbDate
 //		default: println it
 //	} // isCase()
 //}
-//
+
 	
