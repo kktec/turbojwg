@@ -19,13 +19,6 @@ class Address {
 	
 	Date asOf
 	
-	
-	
-	
-	
-	
-	
-	
 	// NOTE: only supports zip short form
 	Map validate() {
 		Map errors = [:]
@@ -38,7 +31,7 @@ class Address {
 		errors
 	} 
 	
-	// This is what a Grails validator that does the same thing similar would look like
+	// NOTE: This is what a Grails validator that does the same thing would look like
 	static constraints = {
 		zip(blank: false, minSize: 5, maxSize: 5, matches: ZIP_REGEX)
 	}
