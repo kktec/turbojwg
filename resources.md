@@ -4,7 +4,7 @@
 
 * [website] (http://groovy.codehaus.org/)
 * [source code] (https://github.com/groovy/groovy-core)
-* [forum] (http://groovy.329449.n5.nabble.com/groovy-user-f329450.html) now DEPRECATED in favor StackOverflow w/ grails tag
+* [forum] (http://groovy.329449.n5.nabble.com/groovy-user-f329450.html)
 * [issue tracker] (http://jira.codehaus.org/secure/BrowseProject.jspa?id=10242)
 * [Documentation Portal] (http://groovy.codehaus.org/Documentation)
 * [User Guide] (http://groovy.codehaus.org/User+Guide)
@@ -58,6 +58,7 @@ Many of these books are available with a [Safari Books] (http://www.safaribookso
 * [Groovy for Fun and Profit] (http://www.infoq.com/presentations/Groovy-examples) - by Ken Kousen
 * [Design Patterns in Groovy] (http://www.infoq.com/presentations/groovy-design-patterns) by Venkat Subramaniam
 * [Application Architecture in Groovy] (http://www.infoq.com/presentations/groovy-app-architecture) - by Dan Woods
+* [Making Java APIs Groovy] (http://www.youtube.com/watch?v=mA8hzldEF3I) - by Cedric Champeau 
 
 Sites with lots of Groovy related presentations include [InfoQ] (http://www.infoq.com/), [Vimeo] (http://vimeo.com/), [Skills Matter] (https://skillsmatter.com/) and of course [YouTube] (http://www.youtube.com/)
 
@@ -114,7 +115,7 @@ Sites with lots of Groovy related presentations include [InfoQ] (http://www.info
 * [User Guide] (http://grails.org/doc/latest/) - substitue the version no. for _latest_ in the url for a specific version
 * [API docs] (http://grails.org/doc/latest/api) - substitue the version no. for _latest_ in the url for a specific version
 * [source code] (https://github.com/grails)
-* [forum] (http://grails.1312388.n4.nabble.com/Grails-user-f1312389.html)
+* [forum] (http://grails.1312388.n4.nabble.com/Grails-user-f1312389.html) recently DEPRECATED in favor of StackOverflow w/ grails tag
 * [issue tracker] (http://jira.grails.org/browse/GRAILS/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel)
 
 ###Popular/Interesting Plugins

@@ -50,7 +50,7 @@ class Customer {
 //String zip = '98052'
 //List waCustomers = db.rows customersByStateAndZipSql, [state: state, zip: zip]
 //println "\n$waCustomers\n"
-
+//
 //println waCustomers.collect { new Customer(it + [state: state, zip: zip]) }
 
 db.close()

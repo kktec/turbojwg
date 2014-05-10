@@ -1,7 +1,9 @@
 import demo.JUser
 
-x = { 'Groovy is fantastic' }
+x = {}
 //println x.call()
+
+//x = { 'Groovy is fantastic' }
 //println x()
 
 //x = { "Groovy is number $it" } // should you use 'it' or a named closure param ?
@@ -12,24 +14,16 @@ x = { 'Groovy is fantastic' }
 //}
 //println x('really powerful')
 
-//x = new Runnable() {
-//	void run() {
-//		println 'Groovy is great'
-//	}
-//}
-//x.run()
-
 //x = { println 'Groovy is my favorite' } as Runnable
 //x.run()
 
 //x = 7
 //def c = { println "x is $x" }
 //c()
-//
+
 //println "owner is $c.owner"
-//
 //println "delegate is $c.delegate"
-//
+
 //c = { println username }
 //user = new JUser(username: 'ken')
 //c.delegate = user

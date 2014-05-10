@@ -9,35 +9,22 @@ Date today = new Date()
 Address a = new Address('123 Easy St.', '#1', 'MSN', 'WI', '53704', today)
 println a
 //a.city = 'MKE' // Immutable !
-
-//assert a.asOf == today
 //assert a.asOf.is(today)
 
 
 
 // we want the primaryAddress values exposed on the Person class
 // we want to use composition, not inheritance
-//class Entity {}
-//class Person extends Entity {
-//	String name
-//
-//	@Delegate 
-//	Address primaryAddress // first @Delegate declared wins
-//
-//	Address secondaryAddress
-//}
-//
+class Entity {}
+class Person extends Entity {
+	String name
+
+	@Delegate 
+	Address primaryAddress // first @Delegate declared wins
+}
+
 //Person p = new Person(name: 'ken', primaryAddress: a)
 //println "$p.name's city is $p.city"
-
-
-
-//@Singleton // should the Singleton pattern/anti-pattern be voted off the island ?
-//class TheRing {
-//	String toString() { 'To rule them all' }
-//}
-//println TheRing.instance
-//new TheRing()
 
 
 
@@ -54,9 +41,10 @@ println a
 //
 //Distance m1 = new Distance(unit: Distance.Unit.METERS, value: 400)
 //println m1
-//
+
 //Distance m2 = new Distance(Distance.Unit.METERS, 400)
 //println m2
+
 //assert m1 == m2
 //println m1.hashCode()
 
