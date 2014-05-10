@@ -54,15 +54,9 @@ println ot
 // The Groovy JDK provides a host of new methods you can use on Collections
 // and support for Memoization and TailCallRecursion
 
-//List numbers = [1, 2, 3, 4, 5]
-//println numbers.collate(2)
-
+//List numbers = [1, 2, 3, 4, 5, 6]
 //Set permutations = numbers.permutations()
 //println permutations
 //println permutations.size()
+//println numbers.collate(2)
 
-
-//numbers.push 13
-//println numbers
-//println numbers.pop()
-//println numbers

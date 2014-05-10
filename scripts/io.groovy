@@ -29,7 +29,7 @@ println languages.text
 //}
 //String xml = writer.toString()
 //println xml
-
+//
 //GPathResult x = new XmlSlurper().parseText(xml)
 //assert x.language[2].@name == 'Groovy'
 //assert x.language[2].type == 'optional'
@@ -38,12 +38,12 @@ println languages.text
 
 
 
-JsonBuilder jsb = new JsonBuilder(langs)
-println "$jsb\n"
-println jsb.toPrettyString()
-
-JsonSlurper js = new JsonSlurper()
-def jso = js.parseText(jsb.toString())
-println "\n$jso"
+//JsonBuilder jsb = new JsonBuilder(langs)
+//println "$jsb\n"
+//println jsb.toPrettyString()
+//
+//JsonSlurper js = new JsonSlurper()
+//def jso = js.parseText(jsb.toString())
+//println "\n$jso"
 
 

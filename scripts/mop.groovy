@@ -1,3 +1,5 @@
+import demo.JUser
+
 x = { 'Groovy is fantastic' }
 //println x.call()
 //println x()
@@ -23,11 +25,11 @@ x = { 'Groovy is fantastic' }
 //x = 7
 //def c = { println "x is $x" }
 //c()
-
+//
 //println "owner is $c.owner"
-
+//
 //println "delegate is $c.delegate"
-
+//
 //c = { println username }
 //user = new JUser(username: 'ken')
 //c.delegate = user
@@ -41,9 +43,6 @@ x = { 'Groovy is fantastic' }
 //println Closure.DELEGATE_FIRST
 //println Closure.OWNER_ONLY
 //println Closure.DELEGATE_ONLY
-
-//x = [name: 'me', warning: { 'oh oh' }]
-//println x.warning()
 
 
 //String.metaClass.warning = { 'WARNING: with great power comes great responsibility' }

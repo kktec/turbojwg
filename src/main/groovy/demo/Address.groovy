@@ -26,14 +26,14 @@ class Address {
 	
 	
 	
-	// NOTE: only supports zip short form at this time
+	// NOTE: only supports zip short form
 	Map validate() {
 		Map errors = [:]
 		if (!zip) { errors.zip = 'blank' }
 		else if (zip.size() < 5) { errors.zip = 'minSize' }
 		else if (zip.size() > 5) { errors.zip = 'maxSize' }
-		else { 
-			if (!(zip ==~ ZIP_REGEX)) { errors.zip = 'matches' }
+		else if (!(zip ==~ ZIP_REGEX)) { 
+			errors.zip = 'matches'
 		}
 		errors
 	} 

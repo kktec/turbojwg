@@ -11,7 +11,7 @@ class Jokes {
 	static void main(String[] args) {
 		int numberOfJokes = 10
 		long start = System.currentTimeMillis()
-		List jokes = fetchJokes numberOfJokes
+		List jokes = fetchJokesParallel numberOfJokes
 		long end = System.currentTimeMillis()
 		jokes.each { println "$it\n" }
 		println "Fetching $numberOfJokes jokes took ${(end - start) / 1000.0} sec."
@@ -28,7 +28,7 @@ class Jokes {
 	}
 
 	static Collection fetchJokesParallel(int number) {
-		GParsExecutorsPool.withPool {
+		GParsExecutorsPool.withPool(number) {
 			(1..number).collectParallel { fetchJoke it }
 		}
 	} 

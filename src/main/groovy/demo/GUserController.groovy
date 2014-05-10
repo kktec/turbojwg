@@ -7,7 +7,12 @@ class GUserController {
 	Map addUser(params) {
 		if (!params) { throw new IllegalArgumentException('Params required') }
 		
-		JUser user = new JUser(username: 'kktec', firstName: 'Ken', lastName: 'Krebs', email: 'kktec@kktec.org')
+		JUser user = new JUser(
+			username: params.username,
+			firstName: params.firstName,
+			lastName: params.lastName,
+			email: params.email
+		)
 		println user.dump()
 
 		Map errors = userRepository.saveUser user

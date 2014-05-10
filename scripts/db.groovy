@@ -32,7 +32,6 @@ class Customer {
 //from Customers
 //where CUSTOMERID = ?
 //'''
-//
 //Customer cust1001 = new Customer(db.firstRow(customerByIdSql, 1001))
 //println "\n$cust1001"
 

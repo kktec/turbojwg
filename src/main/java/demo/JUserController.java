@@ -13,10 +13,10 @@ public class JUserController {
 		}
 		
 		JUser user = new JUser();
-		user.setUsername("kktec");
-		user.setFirstName("Ken");
-		user.setLastName("Krebs");
-		user.setEmail("kktec@kktec.org");
+		user.setUsername(params.get("username"));
+		user.setFirstName(params.get("firstName"));
+		user.setLastName(params.get("lastName"));
+		user.setEmail(params.get("email"));
 		System.out.println(user);
 		
 		Map<String, String> errors = userRepository.saveUser(user);
