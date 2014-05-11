@@ -1,5 +1,7 @@
 ##Groovy
 
+On Twitter, use #groovylang
+
 ###Groovy websites
 
 * [website] (http://groovy.codehaus.org/)
@@ -58,7 +60,6 @@ Many of these books are available with a [Safari Books] (http://www.safaribookso
 * [Groovy for Fun and Profit] (http://www.infoq.com/presentations/Groovy-examples) - by Ken Kousen
 * [Design Patterns in Groovy] (http://www.infoq.com/presentations/groovy-design-patterns) by Venkat Subramaniam
 * [Application Architecture in Groovy] (http://www.infoq.com/presentations/groovy-app-architecture) - by Dan Woods
-* [Making Java APIs Groovy] (http://www.youtube.com/watch?v=mA8hzldEF3I) - by Cedric Champeau 
 
 Sites with lots of Groovy related presentations include [InfoQ] (http://www.infoq.com/), [Vimeo] (http://vimeo.com/), [Skills Matter] (https://skillsmatter.com/) and of course [YouTube] (http://www.youtube.com/)
 
