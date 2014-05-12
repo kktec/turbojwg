@@ -3,13 +3,9 @@ def x = 0
 // all java loops and conditionals are supported except do-while
 
 
-//if (!x) {
-//	println 'no x'
-//} else {
-//	print 'got x'
-//}
 
-//println x ?: 'y'
+println x ? x : 'y'
+println x ?: 'y'
 
 //for (i in 0..4) { println i }
 
