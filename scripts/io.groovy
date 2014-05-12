@@ -31,9 +31,9 @@ println languages.text
 //println xml
 //
 //GPathResult x = new XmlSlurper().parseText(xml)
-//assert x.language[2].@name == 'Groovy'
-//assert x.language[2].type == 'optional'
-//assert x.language[2].popularity == '1'
+//println x.language[2].@name
+//println x.language[2].type
+//println x.language[2].popularity
 
 
 
