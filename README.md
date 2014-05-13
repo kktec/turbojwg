@@ -7,6 +7,8 @@ kktec on GitHub
 
 Source code for samples and resources are at https://github.com/kktec/turbojwg - sample scripts are in the scripts folder
 
+__NOTE:_ resources.md updated on May 13
+
 -----
 
 * Do you want to develop code faster ? 

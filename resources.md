@@ -157,6 +157,7 @@ Sites with lots of Groovy related presentations include [InfoQ] (http://www.info
 
 ###A few interesting presentations
 
+* [Building Twitter with Grails in 60 Minutes] (https://www.youtube.com/watch?v=pmT1zg8Cie4) - by Jeff Scott Brown
 * [An Introduction To Web Development With Grails 2] (http://www.infoq.com/presentations/web-app-grails-2) - by Jeff Scott Brown
 * [Securing Grails Applications] (http://www.infoq.com/presentations/security-grails-apps) - by Burt Beckwith
 * [Grails Transactions] (http://www.infoq.com/presentations/grails-transaction) - by Burt Beckwith
