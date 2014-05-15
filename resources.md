@@ -106,6 +106,8 @@ Sites with lots of Groovy related presentations include [InfoQ] (http://www.info
 * [The Art of Builds - An In-depth Comparison of Build Tools] (http://www.infoq.com/presentations/compare-build-tools) - by Hans Dockter (Gradle founder and team lead)
 * [Building a Continuous Delivery Pipeline with Gradle and Jenkins] (http://www.infoq.com/presentations/cd-gradle-jenkins) - by Peter Nierwieser (Gradle team member)
 * [Rocking the Gradle] (http://www.infoq.com/presentations/Gradle) - by Peter Walker (Gradle team member)
+* [Part One of the Gradle Workshop] (http://www.gradleware.com/news/blog/watch-part-one-gradle-workshop-gradle-summit-2013) - by Peter Nierwieser (Gradle team member)
+* [Part Two of the Gradle Workshop] (http://www.gradleware.com/news/blog/video-tutorial-part-2-gradle-workshop-peter-niederwieser) - by Peter Nierwieser (Gradle team member)
 
 -----
 
