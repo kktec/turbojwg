@@ -6,7 +6,7 @@ bin/
 .settings/
 .project
 .metadata
-
+.DS*
 *.md.html
 
 

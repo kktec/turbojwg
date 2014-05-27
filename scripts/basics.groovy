@@ -52,7 +52,7 @@ String city = 'MSN'
 
 //x = []
 //x = [1, 2, 3]
-//x = [ as Object[]
+//x = [] as Object[]
 //x = [] as LinkedList
 //x = [] as Set
 
